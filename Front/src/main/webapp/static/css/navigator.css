@@ -1,0 +1,58 @@
+.navigator {
+    height: 80px;
+    width: 100%;
+    min-width: 1280px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #1cade4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.navigator .left {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navigator .left > h2 {
+    padding-right: 30px;
+    border-right: 2px solid white;
+}
+
+.navigator .left > div {
+    padding-left: 30px;
+}
+
+.navigator .right {
+    margin-right: 50px;
+    display: flex;
+}
+
+.navigator .right > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigator .right > div.two-char {
+    width: 68px;
+}
+
+.navigator .right > div.four-char {
+    width: 102px;
+}
+
+.navigator .right > div > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navigator .right > div > a:hover {
+    cursor: pointer;
+    font-size: 19px;
+}

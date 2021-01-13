@@ -1,0 +1,142 @@
+.form-wrap {
+    font-size: 17px;
+    display: inline-block;
+}
+
+.form-wrap h2 {
+    display: inline-block;
+}
+
+.form-wrap table {
+    padding: 5px 0;
+}
+
+.form-wrap caption {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.form-wrap input[type=text], input[type=password], input[type=date], input[type=number] {
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+    font-family: "微软雅黑", serif;
+    border-radius: 8px;
+    border: 2px solid lightgray;
+    outline: none;
+    padding: 2px 8px;
+    vertical-align: middle;
+}
+
+.form-wrap select {
+    width: 220px;
+    height: 38px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 2px solid lightgray;
+    outline: none;
+    padding: 2px 8px;
+    vertical-align: middle;
+}
+
+.form-wrap td {
+    height: 40px;
+    padding: 5px 0;
+    vertical-align: middle;
+}
+
+.form-wrap label {
+    vertical-align: middle;
+}
+
+.form-wrap span {
+    width: 100px;
+    font-size: 13px;
+    white-space: nowrap;
+    display: block;
+}
+
+.form-wrap .mark {
+    font-size: 17px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.form-wrap .blank {
+    width: 50px;
+}
+
+.form-wrap #to {
+    text-align: center;
+}
+
+.form-wrap #imageCode {
+    vertical-align: middle;
+}
+
+.form-wrap #verifyCode {
+    width: 120px;
+}
+
+.form-wrap #insert-applyNum {
+    width: 180px;
+}
+
+.form-wrap #update-applyNum {
+    width: 180px;
+}
+
+.form-wrap #query-applyNum {
+    width: 180px;
+}
+
+.form-wrap .button-wrap {
+    text-align: center;
+}
+
+.form-wrap input[type=text]:focus, input[type=password]:focus, input[type=number]:focus,
+.form-wrap input[type=date]:focus, textarea:focus, select:focus {
+    transition: border linear .2s, box-shadow linear .5s;
+    -moz-transition: border linear .2s, -moz-box-shadow linear .5s;
+    -webkit-transition: border linear .2s, -webkit-box-shadow linear .5s;
+    -o-transition: border linear .2s, -webkit-box-shadow linear .5s;
+    outline: none;
+    border-color: rgba(28, 173, 228, 0.75);
+    box-shadow: 0 0 8px rgba(28, 173, 228, .5);
+    -moz-box-shadow: 0 0 8px rgba(28, 173, 228, .5);
+    -webkit-box-shadow: 0 0 8px rgba(28, 173, 228, 3);
+    -o-box-shadow: 0 0 8px rgba(28, 173, 228, .5);
+}
+
+.form-wrap input[type=text].null, input[type=password].null, input[type=date].null {
+    outline: none;
+    border-color: rgb(245, 108, 108);
+    box-shadow: 0 0 8px rgba(245, 108, 108, .5);
+    -moz-box-shadow: 0 0 8px rgba(245, 108, 108, .5);
+    -webkit-box-shadow: 0 0 8px rgba(245, 108, 108, 3);
+    -o-box-shadow: 0 0 8px rgba(245, 108, 108, .5);
+}
+
+.form-wrap #age {
+    width: 70px;
+}
+
+.form-wrap #week {
+    width: 70px;
+}
+
+.form-wrap #addr {
+    width: 560px;
+}
+
+.form-wrap input[id=amount] {
+    width: 170px;
+}
+
+.form-wrap input[id=deposit] {
+    width: 170px;
+}
+
+.form-wrap input[id=recharge] {
+    width: 170px;
+}

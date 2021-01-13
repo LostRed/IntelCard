@@ -1,0 +1,99 @@
+.menu-wrap {
+    height: 100%;
+    background-color: #3b3e47;
+    user-select: none;
+    display: block;
+}
+
+.menu-wrap a {
+    padding-left: 40px;
+    text-decoration: none;
+    color: #b2b8be;
+    display: block;
+}
+
+.menu-wrap ul li {
+    list-style: none;
+}
+
+.menu-wrap > ul {
+    width: 260px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-wrap > ul > li {
+    text-align: left;
+}
+
+.menu-wrap > ul > li > ul {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0;
+    display: none;
+}
+
+.menu-wrap > ul > li > a {
+    height: 65px;
+    line-height: 65px;
+}
+
+.menu-wrap > ul > li > ul > li > a {
+    height: 50px;
+    line-height: 50px;
+}
+
+.menu-wrap > ul > li > ul > li {
+    text-align: left;
+}
+
+.menu-wrap > ul > li > a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 65px;
+    background-color: #1cade4;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.menu-wrap > ul > li > a:hover:before {
+    opacity: 1;
+}
+
+.menu-wrap > ul > li > a:hover, .menu-wrap > ul > li > ul > li > a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #7286a1;
+}
+
+.menu-wrap > ul > li.show, .menu-wrap > ul > li > a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu-wrap > ul > li > a.active:before {
+    opacity: 1;
+}
+
+.menu-wrap > ul > li > ul > li > a.active {
+    color: white;
+    background-color: #1cade4;
+}
+
+.menu-wrap > ul > li > a > label:after {
+    content: "▶";
+}
+
+.menu-wrap > ul > li > a > label {
+    font-size: 13px;
+    float: right;
+    margin-right: 20px;
+    transition: all .3s;
+}
+
+.menu-wrap > ul > li > a.active > label {
+    transition: all .3s;
+    transform: rotate(90deg);
+}

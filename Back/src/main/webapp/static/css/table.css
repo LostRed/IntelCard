@@ -1,0 +1,74 @@
+.table-wrap {
+    margin: 10px 0;
+}
+
+.table-wrap table {
+    width: 100%;
+    font-size: 17px;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+.table-wrap tbody {
+    user-select: text;
+}
+
+.table-wrap a {
+    margin: 0 5px;
+}
+
+.table-wrap caption {
+    text-align: left;
+    vertical-align: middle;
+    height: 50px;
+    line-height: 50px;
+}
+
+.table-wrap td {
+    height: 50px;
+    border: 2px solid lightgray;
+    text-align: center;
+    padding: 0;
+}
+
+.table-wrap .table-col {
+    font-weight: bold;
+    background-color: #1cade4;
+    color: white;
+    text-align: center;
+}
+
+.table-wrap a:hover {
+    cursor: pointer;
+    color: #1cade4;
+}
+
+.table-wrap td.select {
+    width: 55px;
+}
+
+.table-wrap td.index {
+    width: 55px;
+}
+
+.table-wrap td.operation {
+    width: 250px;
+}
+
+.pres-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-wrap input[type=text] {
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+.table-wrap input[type=text]:focus {
+    border: 2px solid #1cade4;
+    box-sizing: border-box;
+}

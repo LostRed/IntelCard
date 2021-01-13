@@ -1,0 +1,44 @@
+#appoint-div {
+    text-align: center;
+    user-select: none;
+    position: fixed;
+    box-shadow: 2px 2px 10px black;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    display: none;
+}
+
+.week td {
+    width: 150px;
+}
+
+#data td div:hover {
+    cursor: pointer;
+}
+
+caption .button-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#appoint-div .button-wrap {
+    margin-bottom: 20px;
+}
+
+#appoint-div .table-wrap {
+    margin: 20px 50px;
+}
+
+#appoint-drag:hover {
+    cursor: move;
+}
+
+.title-wrap {
+    background-color: #1cade4;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
